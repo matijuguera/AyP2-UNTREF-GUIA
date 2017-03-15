@@ -1,0 +1,18 @@
+package com.matias.clase1.Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.matias.clase1.SumarDigitos;
+
+public class SumarDigitosTest {
+	@Test
+	public void probandoUnNumeroPositivo() {
+		assertEquals(22,SumarDigitos.Sumar(1984));
+	}
+	@Test
+	public void probandoUnNumeroNegativo() {
+		assertEquals(22,SumarDigitos.Sumar(-1984));
+	}
+}
